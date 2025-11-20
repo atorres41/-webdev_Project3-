@@ -1,0 +1,129 @@
+
+header {
+  position: relative;
+  height: 113px;
+  text-align: center;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 3em;
+  font-family: 'Snell Roundhand', cursive;
+  color: #ffffff;
+  position: static;
+  margin-top: 20px;
+
+  background-color: #000000;
+  padding: 0.3em 1em;
+  border-radius: 40px;
+  
+}
+
+h1:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+
+.text-box:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.2);
+}
+
+body{   
+    background-image: url("../images/background_resume_image.jpg"); 
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#page-wrapper{  width: 960px;
+    margin: 0 auto;
+    box-shadow: 0px 2px 4px 1px rgb(0, 0, 0);
+    border-radius: 24px 24px 0px 0px;
+    background-color: #a0a0a088;
+    text-align: center; 
+    padding: 2em;
+    }
+
+h2{
+  font-family: Georgia (serif), 'Times New Roman', Times, serif;
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+h3 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000000; 
+  margin-top: 1.7em;
+  margin-bottom: 0.5em;
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid #cfd1e1; 
+}
+
+p{
+  font-size: 1rem;  
+  line-height: 1.6;
+  margin-bottom: 1em;
+}
+
+ul {
+  padding-left: 1.5em;
+  text-align: left; 
+  font-size: 1rem;
+}
+
+video{
+  max-width: 80%;
+  margin: 1em auto;
+  display: block;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+video:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.imageR{ float: right;
+    border: 2px solid rgb(0, 0, 0);
+    width: 300px;
+    padding: 5px;
+    background-color: white;
+    margin: 10px 0 10px 20px;}
+
+.imageR:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}    
+
+#main-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #bc4a75;
+  display: flex;           
+  justify-content: center;      
+  align-items: center;  
+}
+
+#main-nav ul li a {
+  display: block;
+  color: white;
+  padding: 1em 2em;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  white-space: nowrap; 
+}
+
+#main-nav ul li a:hover {
+  background-color: #b60d81;
+}
+
+#main-header-resume{
+  background-color: #b4f9ce;
+  padding: 7px;
+}
+  
