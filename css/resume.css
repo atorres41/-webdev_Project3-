@@ -116,6 +116,7 @@ video:hover {
   text-decoration: none;
   transition: background-color 0.3s;
   white-space: nowrap; 
+  font-size: 0.8rem;
 }
 
 #main-nav ul li a:hover {

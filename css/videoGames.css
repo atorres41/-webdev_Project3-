@@ -131,6 +131,7 @@ ul {
   transition: background-color 0.3s;
   white-space: nowrap; 
   border-radius: 0.5rem;
+  font-size: 0.8rem;
 }
 
 #main-nav ul li a:hover {

@@ -23,6 +23,7 @@ header {
   text-decoration: none;
   transition: background-color 0.3s;
   white-space: nowrap; 
+  font-size: 0.8rem;
 }
 
 #main-nav ul li a:hover {
@@ -63,5 +64,7 @@ h1:hover {
 @media (min-width: 800px) {
   #main-nav ul li a {
     padding: 1em 2em;
+    font-size: 1rem;
   }
+  
 }

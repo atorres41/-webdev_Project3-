@@ -164,10 +164,11 @@ ul {
 #main-nav ul li a {
   display: block;
   color: white;
-  padding: 1em 0.7em;
+  padding: 1em 0.5em;
   text-decoration: none;
   transition: background-color 0.3s;
   white-space: nowrap; 
+  font-size: 0.8rem;
 }
 
 #main-nav ul li a:hover {

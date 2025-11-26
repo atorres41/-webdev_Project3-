@@ -19,32 +19,14 @@
         <li><a href="resume.html">Resume</a></li>
         <li><a href="videoGames.html">Favorite Video Games</a></li>
         <li><a href="mapAPI.html">Google Maps</a></li>
+        <li><button id="questionButton">Questions?</button></li>
       </ul>
     </nav>
     <h1>Google Maps</h1>
   </header>
 
-  <div id="googleMap"></div>
+  <div id="googleMap" style="width:100%; height:100vh;"></div>
 
-
-    <script>
-      function myMap() {
-      var mapProp= {
-      center:new google.maps.LatLng(41.838813,-87.627274),
-      zoom:19,
-      };
-      var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-      var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(41.838813,-87.627274),
-        map: map,
-        title: 'Illinois Institute of Technology'
-      });
-      marker.setMap(map);
-      }
-
-</script>
-
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=myMap"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap" async></script>
 </body>
 </html>
