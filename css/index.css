@@ -21,12 +21,12 @@ body {
 
 h1 {
   display: inline-block;
-  font-size: 3rem;
   color: #f87459;
   margin-top: 1rem;
   background-color: #ffeade;
-  padding: 0.3em 1em;
-  border-radius: 2.5rem;
+  font-size: 2rem;
+  padding: 0.2em 1em;
+  border-radius: 1.5rem;
 }
 
 h1:hover {
@@ -66,8 +66,8 @@ ul {
 }
 
 .dog-box {
-  background-color: hsl(33, 100%, 77%);
-  border: 0.2rem solid #ffb9d4;
+  background-color: hsl(137, 100%, 89%);
+  border: 0.2rem solid #ffc1c1;
   border-radius: 1rem;
   padding: 1.5rem;
   width: 48%;
@@ -187,4 +187,34 @@ ul {
   color: #333;
   clear: both; 
 
+}
+
+@media (min-width: 800px) {
+  #main-nav ul li a {
+    font-size: 1.1rem;
+    padding: 1em 2.5em;
+  }
+  h1 {
+    font-size: 3rem;
+    padding: 0.3em 1em;
+    border-radius: 2.5rem;
+  }
+  .text-box {
+    padding: 2rem 2.5rem;
+  }
+}
+
+@media (min-width: 870px) {
+  .dog-box {
+    width: 45%;
+    background-color: hsl(33, 100%, 77%);
+    border: 0.2rem solid #d4b9ff;
+  }
+  .dog-box .imageR {
+    width: 80%;
+  }
+  body {
+    max-width: 75rem;
+    margin: 0 auto;
+  }
 }
