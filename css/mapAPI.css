@@ -34,10 +34,15 @@ header {
   padding: 7px;
 }
 
-#map {
-  height: 500px; 
-  width: 100%;  
-  background-color: lightgray; 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#googleMap {
+  height: 100vh; 
+  width: 100%;
 }
 
 h1 {
