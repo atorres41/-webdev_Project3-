@@ -26,7 +26,6 @@ function initMap() {
     }
   ];
 
-
   locations.forEach(loc => {
     const circle = new google.maps.Circle({
       strokeColor: loc.color,
@@ -43,12 +42,13 @@ function initMap() {
       window.open(loc.website, "_blank");
     });
   });
+}
 
-
+document.addEventListener("DOMContentLoaded", () => {
   const button = document.getElementById("questionButton");
   if (button) {
     button.addEventListener("click", () => {
       alert("If you have questions, contact me at:\natorres41@hawk.illinoistech.edu");
     });
   }
-}
+});
