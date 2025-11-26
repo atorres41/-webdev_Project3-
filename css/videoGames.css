@@ -126,7 +126,7 @@ ul {
 #main-nav ul li a {
   display: block;
   color: white;
-  padding: 1em 2em;
+  padding: 1em 0.7em;
   text-decoration: none;
   transition: background-color 0.3s;
   white-space: nowrap; 
@@ -152,5 +152,17 @@ ul {
   .imageR {
     width: 90%;
     max-width: none;
+  }
+}
+
+@media (min-width: 800px) {
+  #main-nav ul li a {
+    font-size: 1.1rem;
+    padding: 1em 2em;
+  }
+  h1 {
+    font-size: 3rem;
+    padding: 0.3em 1em;
+    border-radius: 2.5rem;
   }
 }
